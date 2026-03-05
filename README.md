@@ -1,99 +1,95 @@
-WanderLust 🌍
+WANDERLUST PROJECT
 
-A full-stack travel listing web application where users can explore destinations, add listings, and share reviews. This project is inspired by platforms like Airbnb and allows users to discover unique places to stay around the world.
+Wanderlust is a web application where users can explore travel destinations and view different places listed by other users. It allows users to add new listings, view details of places, edit listings, and delete them. The platform is designed to help people discover travel locations and share places they have visited.
 
-🚀 Features
+This project demonstrates how a complete web application works using a backend server, database, and dynamic frontend templates. The application is connected to a cloud database and deployed so that it can be accessed online.
 
-🔐 User Authentication
+PROJECT FEATURES
 
-Sign up, login, logout functionality
+User Authentication
+Users can register and create an account. After logging in, users can access features such as adding listings and posting reviews.
 
-🏠 Property Listings
+Add New Listings
+Logged in users can create new travel listings by providing information such as place name, description, price, and location.
 
-Add new listings
+View Listings
+All users can view the list of available places. Each listing displays details such as images, description, location, and price.
 
-View available listings
+Edit Listings
+Users who created a listing can edit the information of that listing if they want to update details.
 
-Edit and delete listings
+Delete Listings
+Users can remove their listings from the platform.
 
-⭐ Reviews System
+Reviews and Ratings
+Users can write reviews for places and share their experience about the location.
 
-Users can add reviews for listings
+Cloud Database Integration
+The application uses a cloud database to store user data, listings, and reviews. This allows the data to be stored securely and accessed from anywhere.
 
-Delete reviews
+Application Deployment
+The project is deployed on a hosting platform so that the application can be accessed online instead of running only on a local machine.
 
-📷 Image Upload
+TECHNOLOGIES USED
 
-Upload property images
-
-📍 Location Support
-
-Map integration for listing locations
-
-🔒 Secure Sessions
-
-Authentication and session management
-
-🛠️ Tech Stack
 Frontend
-
-HTML
-
-CSS
-
-Bootstrap
-
-JavaScript
-
-EJS (Embedded JavaScript Templates)
+HTML is used to structure the web pages.
+CSS is used to design and style the interface.
+Bootstrap is used to make the application responsive and visually organized.
+EJS is used as a template engine to generate dynamic HTML pages.
 
 Backend
-
-Node.js
-
-Express.js
+Node.js is used to run the server and handle backend logic.
+Express.js is used to create routes and manage requests and responses.
 
 Database
+MongoDB Atlas is used as a cloud database to store application data.
+Mongoose is used to connect Node.js with MongoDB and manage database models.
 
-MongoDB
-
-Mongoose
+Authentication
+Passport.js is used to implement secure login and authentication for users.
 
 Other Tools
+Express session is used to manage user sessions.
+Connect flash is used to show success and error messages.
 
-Passport.js (Authentication)
+PROJECT STRUCTURE
 
-Cloudinary (Image storage)
+Models
+Contains database schemas for users, listings, and reviews.
 
-Mapbox (Maps integration)
+Routes
+Contains all application routes for handling requests.
 
-Express-session
+Views
+Contains EJS templates used to render the frontend pages.
 
-Connect-flash
+Public
+Contains static files such as CSS, images, and client side JavaScript.
 
-📂 Project Structure
-wanderlust/
-│
-├── models/        # Database schemas
-├── routes/        # Express routes
-├── controllers/   # Route logic
-├── views/         # EJS templates
-├── public/        # Static files (CSS, JS)
-├── utils/         # Utility functions
-│
-├── app.js         # Main server file
-├── schema.js      # Validation schemas
-├── middleware.js  # Custom middleware
-└── package.json
-⚙️ Installation
-1️⃣ Clone the repository
-git clone https://github.com/YOUR-USERNAME/WANDERLUST.git
-2️⃣ Go to project folder
-cd WANDERLUST
-3️⃣ Install dependencies
-npm install
-4️⃣ Initialize sample data
-node init/index.js
-5️⃣ Start the server
-node app.js
-Open browser:https://wanderlust-1-a9dd.onrender.com/listings
+Controllers
+Contains the main logic for handling different operations like creating listings and reviews.
+
+HOW TO RUN THE PROJECT
+
+Step 1
+Clone the repository from GitHub.
+
+Step 2
+Open the project folder in your code editor.
+
+Step 3
+Install all required dependencies using npm install.
+
+Step 4
+Start the server using node app.js.
+
+Step 5
+Open the browser and visit http://localhost:3000
+to see the application.
+Note : please ensure that you changed the database connections
+For overview of the project please visit the link : https://wanderlust-1-a9dd.onrender.com/listings
+
+AUTHOR
+Syed Azees
+Computer Science Student
