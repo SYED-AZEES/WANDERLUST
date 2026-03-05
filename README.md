@@ -96,35 +96,4 @@ npm install
 node init/index.js
 5️⃣ Start the server
 node app.js
-
-Open browser:
-
-http://localhost:3000
-📸 Screenshots
-
-Add screenshots of your project here.
-
-Example:
-
-/screenshots/homepage.png
-/screenshots/listing.png
-/screenshots/login.png
-🌐 Future Improvements
-
-Payment integration
-
-Booking system
-
-Advanced search filters
-
-User profile dashboard
-
-Responsive mobile design
-
-👨‍💻 Author
-
-Syed Azees
-
-GitHub: https://github.com/SYED-AZEES
-
-LinkedIn: (Add your LinkedIn)
+Open browser:https://wanderlust-1-a9dd.onrender.com/listings
